@@ -1,0 +1,253 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#app {
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 60%;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin-top: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+li.completed {
+    background-color: #d4edda; 
+    text-decoration: line-through;
+}
+
+
+.edit-input {
+    width: 60%;
+    padding: 5px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#app {
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 60%;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin-top: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.edit-input {
+    width: 60%;
+    padding: 5px;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.app{
+    height: 100%;
+    margin: 2%;
+    background-color: rgb(246, 235, 235);
+    font-family: 'Courier New', Courier, monospace;
+}
+.app h1{
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(246, 162, 162);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.task-list{
+    flex: 2;
+    overflow: scroll;
+    max-height: 80vh;
+}
+.task-list ul{
+    list-style: none;
+}
+.task-form{
+    padding: 1rem;
+    flex: 1;
+}
+.task-form form{
+    margin: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(245, 200, 200);
+    border-radius: 7px;
+}
+.button{
+    background-color: rgb(243, 75, 75);
+    color: #ffff;
+  padding: 0.7rem 1.1rem;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: .3rem;
+}
+.task-list li .title{
+    display: flex;
+    justify-content: start;
+}
+.task-list li{
+    background-color: rgb(245, 200, 200);
+    padding: .7rem;
+    margin: 1rem 0;
+    border-radius: 7px;
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;  
+}
+.priority p{
+    border-radius: 1.2rem;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.task-form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+button {
+    margin: 0.3rem;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
